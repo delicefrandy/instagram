@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contain-section {
+  margin: 50px auto;
+  width: 100%;
+  min-height: 1024px;
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 55px auto;
+}
+h1 {
+  width: 90%;
+  height: 55px;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.encabezado > p {
+  font-family: "Fira Sans", sans-serif;
+}
+.my-section {
+  width: 400px;
+  height: 420px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-imag {
+  width: 400px;
+  margin: 0 auto;
+  height: 280px;
+}
+
+.encabezado {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.encabezado > p {
+  padding: 15px;
+}
+img {
+  width: 100%;
+  height: 300px;
+}
+
+.description {
+  /* width: 95%;
+  margin: 27px auto;
+  height: 40px;
+  overflow: hidden; */
+  back5ground-color: aqua;
+  padding: 15px;
+  font-family: "Tajawal", sans-serif;
+  text-align: justify;
+}
